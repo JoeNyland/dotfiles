@@ -7,3 +7,5 @@
 # Source ~/.profile if it exists
 [[ -f ~/.profile ]] && source ~/.profile
 
+[[ -r $rvm_path/scripts/completion ]] && . $rvm_path/scripts/completion
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*

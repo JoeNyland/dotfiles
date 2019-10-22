@@ -19,3 +19,6 @@ alias grep='grep --color'
 
 # Set a colourful $PS1 prompt
 PS1='\[\033[01;32m\]\u@\h\[\033[01;34m\] \w \$\[\033[00m\] '
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
