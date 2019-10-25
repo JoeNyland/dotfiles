@@ -4,3 +4,6 @@
 # Unlimited Bash history
 HISTSIZE=
 HISTFILESIZE=
+
+# The usual Rsync options
+alias rsync='rsync -avPh'
