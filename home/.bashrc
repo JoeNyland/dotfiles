@@ -10,3 +10,6 @@ alias rsync='rsync -avPh'
 
 # Colour output and human readable units for ls
 alias ls='ls -h --color'
+
+# A more helpful sudo prompt
+alias sudo='sudo -p "[sudo] password for %u: " '
