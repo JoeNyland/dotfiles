@@ -13,3 +13,6 @@ alias ls='ls -h --color'
 
 # A more helpful sudo prompt
 alias sudo='sudo -p "[sudo] password for %u: " '
+
+# Colourful Grep
+alias grep='grep --color'
