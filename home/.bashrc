@@ -7,3 +7,6 @@ HISTFILESIZE=
 
 # The usual Rsync options
 alias rsync='rsync -avPh'
+
+# Colour output and human readable units for ls
+alias ls='ls -h --color'
