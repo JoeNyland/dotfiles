@@ -1,0 +1,13 @@
+[user]
+	email = 7666402+JoeNyland@users.noreply.github.com
+	name = Joe Nyland
+[push]
+	default = simple
+[core]
+	autocrlf = input
+[help]
+	autocorrect = 1
+[fetch]
+	prune = true
+[rebase]
+	autosquash = true
