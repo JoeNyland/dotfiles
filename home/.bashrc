@@ -18,7 +18,7 @@ alias sudo='sudo -p "[sudo] password for %u: " '
 alias grep='grep --color'
 
 # Set a colourful $PS1 prompt
-PS1='\[\033[01;32m\]\u@\h\[\033[01;34m\] \w \$\[\033[00m\] '
+PS1="\[\e[92;40m\]\h\[\e[m\]:\[\e[93m\]\W\[\e[m\] \\$ "
 
 # Load Homebrew provided Bash autocompletion
 [ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
