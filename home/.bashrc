@@ -20,6 +20,8 @@ alias grep='grep --color'
 # Set a colourful $PS1 prompt
 PS1="\[\e[92;40m\]\h\[\e[m\]:\[\e[93m\]\W\[\e[m\] \\$ "
 
+export BASH_SILENCE_DEPRECATION_WARNING=1
+
 # Load Homebrew provided Bash autocompletion
 [ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
 
