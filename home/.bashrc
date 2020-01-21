@@ -5,6 +5,9 @@
 HISTSIZE=
 HISTFILESIZE=
 
+# Set the editor
+export EDITOR=$(which vim)
+
 # The usual Rsync options
 alias rsync='rsync -avPh'
 
