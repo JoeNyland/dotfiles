@@ -5,7 +5,10 @@
         "revision": "6d2f307b918355df929b94b4cf5507603e802a21"
       },
       "homebrew/core": {
-        "revision": "f25e8f963ac779c9b6df08c90dc4ad149b28a81f"
+        "revision": "25d8e25bce55bdb2cbf822b164309f1465ba023a"
+      },
+      "homebrew/cask": {
+        "revision": "48fe146540ee8b64bee45536e05a0acad77b64ee"
       }
     },
     "brew": {
@@ -226,6 +229,17 @@
           }
         }
       }
+    },
+    "cask": {
+      "appcleaner": {
+        "version": "3.5"
+      },
+      "daisydisk": {
+        "version": "4.8.2"
+      },
+      "spectacle": {
+        "version": "1.2"
+      }
     }
   },
   "system": {
@@ -233,7 +247,7 @@
       "catalina": {
         "HOMEBREW_VERSION": "2.2.4-14-gd4fc6d5",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "f25e8f963ac779c9b6df08c90dc4ad149b28a81f",
+        "Homebrew/homebrew-core": "25d8e25bce55bdb2cbf822b164309f1465ba023a",
         "CLT": "11.0.33.8",
         "Xcode": "11.3",
         "macOS": "10.15.2"
