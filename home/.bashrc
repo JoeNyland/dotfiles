@@ -9,7 +9,7 @@ HISTFILESIZE=
 export EDITOR=$(which vim)
 
 # The usual Rsync options
-alias rsync='rsync -avPh'
+alias rsync='rsync -avPh --exclude=".fseventsd/"'
 
 # Colour output and human readable units for ls
 alias ls='ls -h --color'
