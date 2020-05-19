@@ -5,6 +5,9 @@
 HISTSIZE=
 HISTFILESIZE=
 
+# Don't save commands that start with a space to ~/.bash_history
+HISTCONTROL="ignorespace:ignoredups"
+
 # Set the editor
 export EDITOR=$(which vim)
 
