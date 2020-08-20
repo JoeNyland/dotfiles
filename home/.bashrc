@@ -144,3 +144,7 @@ export PATH="$PATH:$HOME/.rvm/bin"
 
 # Disable Homebrew auto-updating when something is installed
 HOMEBREW_NO_AUTO_UPDATE=1
+
+# Use gpg-agent for SSH
+export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
+gpgconf --launch gpg-agent
