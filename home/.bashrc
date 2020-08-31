@@ -146,5 +146,12 @@ export PATH="$PATH:$HOME/.rvm/bin"
 HOMEBREW_NO_AUTO_UPDATE=1
 
 # Use gpg-agent for SSH
-export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
+if  [[ $(uname -s) == Darwin* ]]
+then
+  # On macOS, $SSH_AUTH_SOCK is always available, so override it with the gpg-agent provided socket
+  export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
+else
+  # Everywhere else, conditionally set $SSH_AUTH_SOCK, if one has not already been defined
+  [ -z "$SSH_AUTH_SOCK" ] && export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
+fi
 gpgconf --launch gpg-agent
