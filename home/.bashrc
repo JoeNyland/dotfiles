@@ -154,4 +154,4 @@ else
   # Everywhere else, conditionally set $SSH_AUTH_SOCK, if one has not already been defined
   [ -z "$SSH_AUTH_SOCK" ] && export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
 fi
-gpgconf --launch gpg-agent
+[[ $(uname -s) == Darwin* ]] && gpgconf --launch gpg-agent
