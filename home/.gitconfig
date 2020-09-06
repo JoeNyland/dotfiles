@@ -19,5 +19,7 @@
     process = git-lfs filter-process
 [commit]
 	gpgsign = true
+[tag]
+	gpgsign = true
 [color]
     ui = true
