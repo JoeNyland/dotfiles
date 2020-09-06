@@ -1,17 +1,17 @@
 [user]
-	email = joenyland@me.com
-	name = Joe Nyland
-	signingkey = DA9C1E58D5DE0C84
+    email = joenyland@me.com
+    name = Joe Nyland
+    signingkey = DA9C1E58D5DE0C84
 [push]
-	default = simple
+    default = simple
 [core]
-	autocrlf = input
+    autocrlf = input
 [help]
-	autocorrect = 1
+    autocorrect = 1
 [fetch]
-	prune = true
+    prune = true
 [rebase]
-	autosquash = true
+    autosquash = true
 [filter "lfs"]
     required = true
     clean = git-lfs clean -- %f
