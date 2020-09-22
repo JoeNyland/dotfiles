@@ -25,3 +25,5 @@
     ui = true
 [pull]
 	ff = only
+[branch]
+	autoSetupRebase = remote
