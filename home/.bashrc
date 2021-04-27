@@ -89,10 +89,13 @@ export BASH_SILENCE_DEPRECATION_WARNING=1
 
 # Load Homebrew provided Bash autocompletion
 [ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
+[ -f /opt/homebrew/etc/bash_completion ] && . /opt/homebrew/etc/bash_completion
 
 # Add Homebrew coreutils to $PATH
 [ -d /usr/local/opt/coreutils/libexec/gnubin ] && export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+[ -d /opt/homebrew/opt/coreutils/libexec/gnubin ] && export PATH="/opt/homebrew/opt/coreutils/libexec/gnubin:$PATH"
 [ -d /usr/local/opt/coreutils/libexec/gnuman ] && export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
+[ -d /opt/homebrew/opt/coreutils/libexec/gnuman ] && export MANPATH="/opt/homebrew/opt/coreutils/libexec/gnuman:$MANPATH"
 
 # enable color support of ls and also add handy aliases
 if command -v dircolors &> /dev/null; then
