@@ -12,11 +12,11 @@ brew "tree"
 brew "trash"
 brew "ykman"
 cask "appcleaner"
+cask "brave-browser"
 cask "daisydisk"
 cask "keka"
 cask "tor-browser"
 cask "transmission"
-mas "Adblock Plus", id: 1432731683
+cask "yubico-authenticator"
 mas "Trello", id: 1278508951
 mas "WireGuard", id: 1451685025
-mas "Yubico Authenticator", id: 1497506650
