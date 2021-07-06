@@ -1,6 +1,7 @@
 [user]
     email = joenyland@me.com
     name = Joe Nyland
+    signingkey = DA9C1E58D5DE0C84
 [push]
     default = simple
 [core]
@@ -16,6 +17,10 @@
     clean = git-lfs clean -- %f
     smudge = git-lfs smudge -- %f
     process = git-lfs filter-process
+[commit]
+	gpgsign = true
+[tag]
+	gpgsign = true
 [color]
     ui = true
 [pull]
