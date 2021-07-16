@@ -27,3 +27,5 @@
 	ff = only
 [branch]
 	autoSetupRebase = remote
+[init]
+	defaultBranch = main
