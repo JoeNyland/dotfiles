@@ -22,6 +22,8 @@ cask "docker"
 cask "keka"
 cask "plexamp"
 cask "transmission"
+cask "virtualbox"
+cask "vagrant"
 cask "yubico-authenticator"
 cask "yubico-yubikey-manager"
 mas "Adblock Plus", id: 1432731683
