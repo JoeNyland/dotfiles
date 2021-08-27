@@ -27,7 +27,6 @@ cask "virtualbox"
 cask "vagrant"
 cask "yubico-authenticator"
 cask "yubico-yubikey-manager"
-mas "Adblock Plus", id: 1432731683
 mas "Numbers", id: 409203825
 mas "Trello", id: 1278508951
 mas "WireGuard", id: 1451685025
