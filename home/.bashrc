@@ -155,3 +155,6 @@ else
   [ -z "$SSH_AUTH_SOCK" ] && export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
 fi
 [[ $(uname -s) == Darwin* ]] && gpgconf --launch gpg-agent
+
+# Disable Homebrew auto-update
+export HOMEBREW_NO_AUTO_UPDATE=1
