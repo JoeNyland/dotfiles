@@ -26,10 +26,7 @@ cask "logitech-options"
 cask "plex"
 cask "plexamp"
 cask "transmission"
-cask "vagrant"
-cask "virtualbox"
 cask "yubico-authenticator"
-cask "yubico-yubikey-manager"
 mas "Numbers", id: 409203825
 mas "Trello", id: 1278508951
 mas "WireGuard", id: 1451685025
