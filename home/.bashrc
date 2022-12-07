@@ -145,15 +145,7 @@ export NVM_DIR="$HOME/.nvm"
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
 
-# Use gpg-agent for SSH
-if [[ $(uname -s) == Darwin* ]]
-then
-  # On macOS, $SSH_AUTH_SOCK is always available, so override it with the gpg-agent provided socket
-  export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
-else
-  # Everywhere else, conditionally set $SSH_AUTH_SOCK, if one has not already been defined
-  [ -z "$SSH_AUTH_SOCK" ] && export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
-fi
+# Start a GPG agent on macOS
 [[ $(uname -s) == Darwin* ]] && gpgconf --launch gpg-agent
 
 # Disable Homebrew auto-update
