@@ -26,6 +26,8 @@ cask "plexamp"
 cask "raspberry-pi-imager"
 cask "visual-studio-code"
 cask "yubico-authenticator"
+cask "yubico-yubikey-manager"
+cask "zwift"
 mas "Numbers", id: 409203825
 mas "Trello", id: 1278508951
 mas "WireGuard", id: 1451685025
