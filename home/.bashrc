@@ -88,8 +88,8 @@ export EDITOR=$(which vim)
 export BASH_SILENCE_DEPRECATION_WARNING=1
 
 # Load Homebrew provided Bash autocompletion
-[ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
-[ -f /opt/homebrew/etc/bash_completion ] && . /opt/homebrew/etc/bash_completion
+[[ -r "/usr/local/etc/profile.d/bash_completion.sh" ]] && . "/usr/local/etc/profile.d/bash_completion.sh"
+[[ -r "/opt/homebrew/etc/profile.d/bash_completion.sh" ]] && . "/opt/homebrew/etc/profile.d/bash_completion.sh"
 
 # Add Homebrew coreutils to $PATH
 [ -d /usr/local/opt/coreutils/libexec/gnubin ] && export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
