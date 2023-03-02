@@ -33,3 +33,5 @@ Temporary Items
 
 # Environment files
 *.env
+
+venv/
