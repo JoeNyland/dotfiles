@@ -12,3 +12,6 @@
 [[ -f ~/.bashrc ]] && source ~/.bashrc
 
 export GPG_TTY=$(tty)
+
+# Scaleway CLI autocomplete initialization.
+eval "$(scw autocomplete script shell=bash)"
