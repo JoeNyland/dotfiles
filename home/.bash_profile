@@ -14,4 +14,4 @@
 export GPG_TTY=$(tty)
 
 # Scaleway CLI autocomplete initialization.
-eval "$(scw autocomplete script shell=bash)"
+command -v scw &> /dev/null && eval "$(scw autocomplete script shell=bash)"
