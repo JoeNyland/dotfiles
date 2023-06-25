@@ -153,3 +153,7 @@ export PATH="$PATH:$HOME/.rvm/bin"
 
 # Disable Homebrew auto-update
 export HOMEBREW_NO_AUTO_UPDATE=1
+
+# Enabled colour output from Python packages
+# Required as tmux seems to do something which disabled colours from Python packages. Adding this re-enables colour output.
+export PY_COLORS=1
