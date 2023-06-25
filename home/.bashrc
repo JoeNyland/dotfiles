@@ -138,6 +138,9 @@ export NVM_DIR="$HOME/.nvm"
 # Load AVN
 [[ -s "$HOME/.avn/bin/avn.sh" ]] && source "$HOME/.avn/bin/avn.sh"
 
+# Add user-level Python bin to $PATH
+export PATH=$PATH:~/Library/Python/3.11/bin
+
 # Load RVM
 [[ -r $rvm_path/scripts/completion ]] && . $rvm_path/scripts/completion
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
