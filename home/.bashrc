@@ -9,7 +9,8 @@ case $- in
 esac
 
 # Don't save commands that start with a space to ~/.bash_history
-HISTCONTROL="ignorespace:ignoredups"
+# Don't save duplicate commands to ~/.bash_history and erase any duplicates
+HISTCONTROL="ignoreboth:ignoredups:erasedups"
 
 # append to the history file, don't overwrite it
 shopt -s histappend
