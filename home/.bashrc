@@ -19,6 +19,9 @@ shopt -s histappend
 HISTSIZE=
 HISTFILESIZE=
 
+# Add the date and time to history command output
+HISTTIMEFORMAT="%F %T"
+
 # check the window size after each command and, if necessary,
 # update the values of LINES and COLUMNS.
 shopt -s checkwinsize
