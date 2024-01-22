@@ -1,5 +1,4 @@
 tap "homebrew/bundle"
-tap "homebrew/cask-drivers"
 brew "ansible"
 brew "ansible-lint"
 brew "bash-completion"
