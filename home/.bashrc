@@ -161,3 +161,6 @@ export HOMEBREW_NO_AUTO_UPDATE=1
 # Enabled colour output from Python packages
 # Required as tmux seems to do something which disabled colours from Python packages. Adding this re-enables colour output.
 export PY_COLORS=1
+
+# Needed to support installing from bottles on unsupported macOS version
+export HOMEBREW_NO_INSTALL_FROM_API=1
