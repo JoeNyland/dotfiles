@@ -9,6 +9,9 @@
 # Source ~/.profile if it exists
 [[ -f ~/.profile ]] && source ~/.profile
 
+# Source profile containing secrets if it exists
+[[ -f ~/.secret_profile ]] && source ~/.secret_profile
+
 # This file is sourced by bash for login shells.  The following line
 # runs your .bashrc and is recommended by the bash info pages.
 [[ -f ~/.bashrc ]] && source ~/.bashrc
