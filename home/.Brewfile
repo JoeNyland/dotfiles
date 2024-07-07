@@ -34,7 +34,6 @@ cask "plexamp"
 cask "raspberry-pi-imager"
 cask "visual-studio-code"
 cask "vlc"
-cask "yubico-authenticator"
 cask "yubico-yubikey-manager"
 mas "Numbers", id: 409203825
 mas "Trello", id: 1278508951
