@@ -143,7 +143,7 @@ fi
 [[ -s "$HOME/.avn/bin/avn.sh" ]] && source "$HOME/.avn/bin/avn.sh"
 
 # Add user-level Python bin to $PATH
-[ -d "~/Library/Python/3.11/bin" ] && export PATH=$PATH:~/Library/Python/3.11/bin
+[ -d "$HOME/Library/Python/3.11/bin" ] && export PATH=$PATH:~/Library/Python/3.11/bin
 
 # Load RVM
 [[ -r $rvm_path/scripts/completion ]] && . $rvm_path/scripts/completion
