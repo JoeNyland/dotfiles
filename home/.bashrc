@@ -146,7 +146,7 @@ fi
 [ -d "$HOME/Library/Python/3.11/bin" ] && export PATH=$PATH:~/Library/Python/3.11/bin
 
 # Add Homebrew provided Python to $PATH
-[ -d "/opt/homebrew/opt/python@3.11/libexec/bin" ] && export PATH="${PATH}:/opt/homebrew/opt/python@3.11/libexec/bin"
+[ -d "/opt/homebrew/opt/python@3.11/libexec/bin" ] && export PATH="/opt/homebrew/opt/python@3.11/libexec/bin:${PATH}"
 
 # Load RVM
 [[ -r $rvm_path/scripts/completion ]] && . $rvm_path/scripts/completion
