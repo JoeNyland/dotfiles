@@ -145,6 +145,9 @@ fi
 # Add user-level Python bin to $PATH
 [ -d "$HOME/Library/Python/3.11/bin" ] && export PATH=$PATH:~/Library/Python/3.11/bin
 
+# Add Homebrew provided Python to $PATH
+[ -d "/opt/homebrew/opt/python@3.11/libexec/bin" ] && export PATH="${PATH}:/opt/homebrew/opt/python@3.11/libexec/bin"
+
 # Load RVM
 [[ -r $rvm_path/scripts/completion ]] && . $rvm_path/scripts/completion
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
