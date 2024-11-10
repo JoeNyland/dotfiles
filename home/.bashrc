@@ -161,6 +161,10 @@ fi
 # Disable Homebrew auto-update
 export HOMEBREW_NO_AUTO_UPDATE=1
 
+# Disable Homebrew attestation verification
+# Some bottles for Monterey do not have attestations. Monterey is no longer supported, so attestations will not be updated for bottles targeted at it.
+export HOMEBREW_NO_VERIFY_ATTESTATIONS=1
+
 # Enabled colour output from Python packages
 # Required as tmux seems to do something which disabled colours from Python packages. Adding this re-enables colour output.
 export PY_COLORS=1
