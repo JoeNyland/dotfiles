@@ -4,5 +4,5 @@
 # sets the video codec preference to h264 > h265 > vp9 > vp9.2 > av01 > vp8 > h263 > theora and audio codec preference to mp4a > aac > vorbis > opus > mp3 > ac3 > dts
 --format-sort +vcodec:avc,+acodec:m4a
 --output "%(uploader)s/%(playlist_title)s/%(uploader)s %(upload_date>%Y-%m-%d)s %(title)s.%(ext)s"
-# Use OAuth to access private playlists on my account
---username=oauth --password=""
+# Use cookies to authenticate access private playlists on my account
+--cookies ~/.config/yt-dlp/cookies.txt
