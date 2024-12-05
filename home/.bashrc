@@ -171,3 +171,7 @@ export PY_COLORS=1
 
 # Needed to support installing from bottles on unsupported macOS version
 export HOMEBREW_NO_INSTALL_FROM_API=1
+
+# Disable the macOS fork safety feature
+# The Prometheus Ansible collection fails to run on macOS without this set
+export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
