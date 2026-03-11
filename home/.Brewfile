@@ -30,5 +30,6 @@ cask "obs"
 cask "plex"
 cask "plexamp"
 cask "raspberry-pi-imager"
+cask "steam"
 cask "visual-studio-code"
 mas "WireGuard", id: 1451685025
