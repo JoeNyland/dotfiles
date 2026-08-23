@@ -30,6 +30,7 @@ cask "plexamp"
 cask "raspberry-pi-imager"
 cask "steam"
 cask "visual-studio-code"
+cask "vlc"
 cask "windows-app"
 mas "Trello", id: 1278508951
 mas "WireGuard", id: 1451685025
