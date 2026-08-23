@@ -145,7 +145,3 @@ fi
 
 # Start a GPG agent on macOS
 [[ $(uname -s) == Darwin* ]] && gpgconf --launch gpg-agent
-
-# Enabled colour output from Python packages
-# Required as tmux seems to do something which disabled colours from Python packages. Adding this re-enables colour output.
-export PY_COLORS=1
