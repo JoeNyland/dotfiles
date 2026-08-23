@@ -1,5 +1,3 @@
-tap "homebrew/bundle"
-tap "homebrew/cask"
 brew "ansible"
 brew "ansible-lint"
 brew "bash-completion"
