@@ -139,9 +139,6 @@ fi
 [ -s "$HOME/.homesick/repos/homeshick/homeshick.sh" ] && source "$HOME/.homesick/repos/homeshick/homeshick.sh"
 [ -s "$HOME/.homesick/repos/homeshick/completions/homeshick-completion.bash" ] && source "$HOME/.homesick/repos/homeshick/completions/homeshick-completion.bash"
 
-# Load AVN
-[[ -s "$HOME/.avn/bin/avn.sh" ]] && source "$HOME/.avn/bin/avn.sh"
-
 # Add user-level Python bin to $PATH
 [ -d "$HOME/Library/Python/3.11/bin" ] && export PATH=$PATH:~/Library/Python/3.11/bin
 
