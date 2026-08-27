@@ -1,0 +1,8 @@
+{
+  "fingerprint": "17dc44a15018dc9afe182576aece2eadb56a9772a5d313c535a451d093a6af26",
+  "not-after": "8760h",
+  "provisioner": "admin",
+  "provisioner-password-file": "/Users/joenyland/.step/secrets/password",
+  "password-file": "/Users/joenyland/.step/secrets/ca.password",
+  "root": "/Users/joenyland/.step/certs/root_ca.crt"
+}
