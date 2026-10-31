@@ -30,6 +30,5 @@ cask "raspberry-pi-imager"
 cask "visual-studio-code"
 cask "vlc"
 cask "windows-app"
-cask "wireshark-app"
 mas "Trello", id: 1278508951
 mas "WireGuard", id: 1451685025
